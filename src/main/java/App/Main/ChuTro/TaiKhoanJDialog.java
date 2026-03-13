@@ -137,21 +137,23 @@ public class TaiKhoanJDialog extends javax.swing.JDialog implements TaiKhoanCont
         Integer vaiTro = rbadmin.isSelected() ? 1 : 2;
         Integer trangThai = rbhoatdong.isSelected() ? 1 : 0;
 
-        return TaiKhoan.builder()
-            .maNguoiDung(id)
-            .tenTaiKhoan(tenTK)
-            .matKhau(mk.isEmpty()? null : mk) // khi sửa có thể để trống -> giữ mật khẩu cũ
-            .hoTen(txtHoTen.getText().trim())
-            .ngaySinh(dcsNgaySinh.getDate())
-            .gioiTinh(gt)
-            .cccd(txtCccd.getText().trim())
-            .dienThoai(txtSoDT.getText().trim())
-            .email(txtEmail.getText().trim())
-            .diaChi(txtDiaChi.getText().trim())
-            .vaiTro(vaiTro)
-            .trangThai(trangThai)
-            .hinhAnh((String) lblanhnguoidung.getClientProperty("path"))
-            .build();
+TaiKhoan tk = new TaiKhoan();
+
+tk.setMaNguoiDung(id);
+tk.setTenTaiKhoan(tenTK);
+tk.setMatKhau(mk.isEmpty() ? null : mk);
+tk.setHoTen(txtHoTen.getText().trim());
+tk.setNgaySinh(dcsNgaySinh.getDate());
+tk.setGioiTinh(gt);
+tk.setCccd(txtCccd.getText().trim());
+tk.setDienThoai(txtSoDT.getText().trim());
+tk.setEmail(txtEmail.getText().trim());
+tk.setDiaChi(txtDiaChi.getText().trim());
+tk.setVaiTro(vaiTro);
+tk.setTrangThai(trangThai);
+tk.setHinhAnh((String) lblanhnguoidung.getClientProperty("path"));
+
+return tk;
     }
 
     @Override

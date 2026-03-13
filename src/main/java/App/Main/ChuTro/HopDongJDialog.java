@@ -148,13 +148,14 @@ public class HopDongJDialog extends javax.swing.JDialog implements HopDongContro
         if (nbd == null || nkt == null) { JOptionPane.showMessageDialog(this, "Chọn ngày bắt đầu/kết thúc"); return null; }
         if (nkt.before(nbd)) { JOptionPane.showMessageDialog(this, "Ngày kết thúc phải sau ngày bắt đầu"); return null; }
 
-        return HopDong.builder()
-                .maHopDong(maHD)          // nếu null: DAO có thể tự sinh hoặc bạn nhập thủ công
-                .maPhong(maPhong)
-                .maNguoiDung(maNguoiDung)
-                .ngayBatDau(nbd)
-                .ngayKetThuc(nkt)
-                .build();
+HopDong hd = new HopDong();
+hd.setMaHopDong(maHD);
+hd.setMaPhong(maPhong);
+hd.setMaNguoiDung(maNguoiDung);
+hd.setNgayBatDau(nbd);
+hd.setNgayKetThuc(nkt);
+
+return hd;
     }
 
     @Override

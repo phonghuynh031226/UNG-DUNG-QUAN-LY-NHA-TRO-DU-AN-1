@@ -129,16 +129,17 @@ public class PhongJDialog extends javax.swing.JDialog implements PhongController
 
         String trangThai = rbDangThue.isSelected() ? "Đang thuê" : "Trống";
 
-        return Phong.builder()
-                .maPhong(ma)
-                .trangThai(trangThai)
-                .giaTien(giaTien)
-                .dienTich(dienTich)
-                .diaChi(txtDiaChi.getText().trim())
-                .lienHe(txtlienhe.getText().trim())
-                .moTa(txtMoTa.getText().trim())
-                .anhPhong((String) lblanhphong.getClientProperty("path"))
-                .build();
+Phong p = new Phong();
+p.setMaPhong(ma);
+p.setTrangThai(trangThai);
+p.setGiaTien(giaTien);
+p.setDienTich(dienTich);
+p.setDiaChi(txtDiaChi.getText().trim());
+p.setLienHe(txtlienhe.getText().trim());
+p.setMoTa(txtMoTa.getText().trim());
+p.setAnhPhong((String) lblanhphong.getClientProperty("path"));
+
+return p;
     }
 
     @Override
