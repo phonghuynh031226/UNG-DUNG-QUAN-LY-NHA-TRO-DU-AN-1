@@ -12,3 +12,11 @@
 * Huỳnh Thanh Phong
 
 **Trưởng nhóm:** Huỳnh Thanh Phong
+
+## Phân công
+
+* Nguyễn Minh Nhựt (làm chức năng hóa đơn)
+* Hồ Anh Quân (làm chức năng tài khoản)
+* Phạm Khắc Thành Lai (làm chức năng hợp đồng)
+* Phan Đình Thịnh (làm chức năng phòng trọ)
+* Huỳnh Thanh Phong (làm các chức năng còn lại)
