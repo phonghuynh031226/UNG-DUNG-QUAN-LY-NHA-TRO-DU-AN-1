@@ -447,9 +447,6 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="3e" green="2e" red="28" type="rgb"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/TroViet/Icon/operation.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Thanh to&#xe1;n"/>
           </Properties>
           <Events>

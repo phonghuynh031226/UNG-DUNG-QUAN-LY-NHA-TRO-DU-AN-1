@@ -26,6 +26,7 @@ public class TrangChuChung extends javax.swing.JFrame implements TrangChuChungCo
         init();           
         initTable();       // Tạo bảng phòng trống
         loadPhongTrong(); // phòng trống từ CSDL
+            tblPhongTrong.setDefaultEditor(Object.class, null);
     }
 
     // Hàm khởi tạo ban đầu

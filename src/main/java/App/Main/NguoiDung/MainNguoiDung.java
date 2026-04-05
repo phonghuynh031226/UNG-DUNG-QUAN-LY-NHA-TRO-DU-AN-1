@@ -396,7 +396,7 @@ public class MainNguoiDung extends javax.swing.JFrame implements MainNguoiDungCo
 
         jMenuTrangChu.setBackground(new java.awt.Color(153, 153, 153));
         jMenuTrangChu.setForeground(new java.awt.Color(255, 255, 255));
-        jMenuTrangChu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/home (1).png"))); // NOI18N
+        jMenuTrangChu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/App/Icon/Computer.png"))); // NOI18N
         jMenuTrangChu.setText("Trang chủ");
         jMenuTrangChu.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jMenuTrangChu.setMinimumSize(new java.awt.Dimension(200, 38));
@@ -405,7 +405,7 @@ public class MainNguoiDung extends javax.swing.JFrame implements MainNguoiDungCo
 
         jMenuHopDong.setBackground(new java.awt.Color(153, 153, 153));
         jMenuHopDong.setForeground(new java.awt.Color(255, 255, 255));
-        jMenuHopDong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/rent (1).png"))); // NOI18N
+        jMenuHopDong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/App/Icon/Accept.png"))); // NOI18N
         jMenuHopDong.setText("Hợp đồng");
         jMenuHopDong.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jMenuHopDong.setMinimumSize(new java.awt.Dimension(200, 38));
@@ -419,7 +419,7 @@ public class MainNguoiDung extends javax.swing.JFrame implements MainNguoiDungCo
 
         jMenuHoaDon.setBackground(new java.awt.Color(153, 153, 153));
         jMenuHoaDon.setForeground(new java.awt.Color(255, 255, 255));
-        jMenuHoaDon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/bill (1).png"))); // NOI18N
+        jMenuHoaDon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/App/Icon/Bell.png"))); // NOI18N
         jMenuHoaDon.setText("Hóa đơn");
         jMenuHoaDon.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jMenuHoaDon.setMinimumSize(new java.awt.Dimension(200, 38));
@@ -433,19 +433,18 @@ public class MainNguoiDung extends javax.swing.JFrame implements MainNguoiDungCo
 
         jMenuAbout.setBackground(new java.awt.Color(153, 153, 153));
         jMenuAbout.setForeground(new java.awt.Color(255, 255, 255));
-        jMenuAbout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/info (1).png"))); // NOI18N
+        jMenuAbout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/App/Icon/Bricks.png"))); // NOI18N
         jMenuAbout.setText("About");
         jMenuAbout.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jMenuAbout.setMinimumSize(new java.awt.Dimension(200, 38));
         jMenuAbout.setOpaque(true);
 
         jMenuNguoiDung.setForeground(new java.awt.Color(40, 46, 62));
-        jMenuNguoiDung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/user (1).png"))); // NOI18N
+        jMenuNguoiDung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/App/Icon/Comment.png"))); // NOI18N
         jMenuNguoiDung.setText("Người dùng");
         jMenuNguoiDung.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
         jMenuThongTin.setForeground(new java.awt.Color(40, 46, 62));
-        jMenuThongTin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/user (1).png"))); // NOI18N
         jMenuThongTin.setText("Thông tin cá nhân");
         jMenuThongTin.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuThongTin.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -457,7 +456,6 @@ public class MainNguoiDung extends javax.swing.JFrame implements MainNguoiDungCo
         jMenuNguoiDung.add(jSeparator5);
 
         jMenuLichSuHD.setForeground(new java.awt.Color(40, 46, 62));
-        jMenuLichSuHD.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/history.png"))); // NOI18N
         jMenuLichSuHD.setText("Lịch sử hoạt động");
         jMenuLichSuHD.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuLichSuHD.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -473,7 +471,7 @@ public class MainNguoiDung extends javax.swing.JFrame implements MainNguoiDungCo
         btnThoat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         btnThoat.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnThoat.setForeground(new java.awt.Color(40, 46, 62));
-        btnThoat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/logout (1).png"))); // NOI18N
+        btnThoat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/App/Icon/Computer.png"))); // NOI18N
         btnThoat.setText("Thoát");
         btnThoat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -486,7 +484,7 @@ public class MainNguoiDung extends javax.swing.JFrame implements MainNguoiDungCo
         btnDangXuat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         btnDangXuat.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnDangXuat.setForeground(new java.awt.Color(40, 46, 62));
-        btnDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/return.png"))); // NOI18N
+        btnDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/App/Icon/Company.png"))); // NOI18N
         btnDangXuat.setText("Đăng xuất");
         btnDangXuat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

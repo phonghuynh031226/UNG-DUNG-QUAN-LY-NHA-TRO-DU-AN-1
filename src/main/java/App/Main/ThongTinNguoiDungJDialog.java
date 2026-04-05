@@ -361,7 +361,6 @@ public class ThongTinNguoiDungJDialog extends javax.swing.JDialog implements Tho
         btnCapNhat.setBackground(new java.awt.Color(0, 0, 255));
         btnCapNhat.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnCapNhat.setForeground(new java.awt.Color(255, 255, 255));
-        btnCapNhat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/edit.png"))); // NOI18N
         btnCapNhat.setText("Cập nhật");
         btnCapNhat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

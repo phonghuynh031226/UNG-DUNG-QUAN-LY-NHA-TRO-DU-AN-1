@@ -361,7 +361,6 @@ public class HoaDonJDialog extends javax.swing.JDialog {
         btnThanhToan.setBackground(new java.awt.Color(255, 205, 31));
         btnThanhToan.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnThanhToan.setForeground(new java.awt.Color(40, 46, 62));
-        btnThanhToan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/TroViet/Icon/operation.png"))); // NOI18N
         btnThanhToan.setText("Thanh toán");
         btnThanhToan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

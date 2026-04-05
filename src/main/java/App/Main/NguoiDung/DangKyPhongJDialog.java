@@ -263,7 +263,7 @@ public class DangKyPhongJDialog extends javax.swing.JDialog {
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel14.setText("Mã phòng:");
-        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 104, -1, -1));
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, -1, -1));
 
         lblMaPhong.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         lblMaPhong.setForeground(new java.awt.Color(255, 205, 31));
